@@ -1,0 +1,16 @@
+{
+  "require-dev": {
+    "phpmd/phpmd" : "2.0.*",
+    "phpunit/phpunit" : "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hoge\\": "src/Hoge"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Hoge\\Test\\": "tests/Hoge/Test"
+    }
+  }
+}
